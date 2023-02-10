@@ -1,0 +1,43 @@
+/* vietnamese */
+
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Averta/AvertaStdCY-Bold.woff2');
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/Averta/AvertaStdCY-BoldItalic.woff2');
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Averta/AvertaStdCY-Regular.woff2");
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/Averta/AvertaStdCY-RegularItalic.woff2');
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Averta/AvertaStdCY-Semibold.woff2');
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/Averta/AvertaStdCY-SemiboldItalic.woff2');
+}

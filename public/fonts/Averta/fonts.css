@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../Averta/AvertaStdCY-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../Averta/AvertaStdCY-BoldItalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Averta/AvertaStdCY-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../Averta/AvertaStdCY-RegularItalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../Averta/AvertaStdCY-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Averta';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../Averta/AvertaStdCY-SemiboldItalic.woff2') format('woff2');
+}

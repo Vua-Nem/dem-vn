@@ -1,0 +1,338 @@
+/* banner */
+.section-banner {
+    background-image: url(../newImage/home/block-fearture.jpg);
+    height: 556px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 66px;
+}
+
+.section-banner .content-section {
+    width: 449px;
+    position: absolute;
+    top: 146px;
+    left: 288px;
+}
+
+.section-banner .content-section .title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #153388;
+    margin-bottom: 6px;
+}
+
+.section-banner .content-section .title span {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.section-banner .content-section p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #515158;
+    margin-bottom: 29px;
+}
+
+.section-banner .content-section .button-action {
+    background: #153388;
+    border-radius: 30px;
+    padding: 16px 77px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+/* product */
+.section-products {
+    margin-bottom: 110px;
+}
+
+.section-products .block-product {
+    padding: 0 270px;
+    text-align: center;
+}
+
+.section-products .block-product:not(:last-child) {
+    margin-bottom: 140px;
+}
+
+.section-products .block-product .block-title {
+    margin-bottom: 14px;
+    color: #051C5C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.section-products .block-product .block-des {
+    margin-bottom: 68px;
+    color: #515158;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section-products .block-product .items-product .item {
+    max-width: 640px;
+}
+
+.section-products .block-product .items-product .item .product-image {
+    position: relative;
+    margin-bottom: 16px;
+    max-height: 400px;
+}
+
+.section-products .block-product .items-product .item .product-image .sale-rate {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 20px;
+    background: #E22020;
+    top: 28px;
+    right: 8px;
+}
+
+.section-products .block-product .items-product .item .product-name {
+    color: #153388;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.section-products .block-product .items-product .item .review-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.section-products .block-product .items-product .item .stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.section-products .block-product .items-product .item .review-stars .review-num {
+    font-size: 16px;
+    color: #BCBCBC;
+    line-height: 20px;
+}
+
+.section-products .block-product .items-product .item .short-desc {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 38px;
+    row-gap: 10px;
+    margin-bottom: 23px;
+    text-align: start;
+}
+
+.section-products .block-product .items-product .item .short-desc li {
+    color: #505050;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.section-products .block-product .items-product .item .price {
+    color: #D92121;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 9px;
+}
+
+.section-products .block-product .items-product .item .compare-price {
+    color: #BCBCBC;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration-line: line-through;
+    margin-bottom: 33px;
+}
+
+.section-products .block-product .items-product .item .installment-price {
+    color: #515158;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+
+.section-products .block-product .items-product .item .installment-price label {
+    color: #38383D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section-products .block-product .items-product .item .installment-price span {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.section-products .block-product .items-product .item .buy-now {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 52px;
+    width: 240px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background: #153388;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.section-products .block-product .items-product .item .buy-now:hover {
+    background: #051C5C;
+}
+
+/* policy */
+.section-policy {
+    background-image: url(../newImage/home/policy.png);
+    height: 591px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 82px;
+}
+
+.section-policy .content-section {
+    width: 540px;
+    position: absolute;
+    top: 168px;
+    left: 479px;
+}
+
+.section-policy .content-section .title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.section-policy .content-section p {
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    text-align: justify;
+}
+
+.section-policy .content-section a {
+    font-size: 18px;
+    line-height: 27px;
+    color: #C2C2C2;
+    text-decoration: underline;
+}
+
+/* certificate */
+.section-certificate {
+    margin-bottom: 166px;
+}
+
+.section-certificate .title-section {
+    text-align: center;
+    color: #051C5C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 14px;
+}
+
+.section-certificate .des-section {
+    text-align: center;
+    color: #515158;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 66px;
+}
+
+.section-certificate .items-section {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.section-certificate .item-certificate {
+    text-align: center;
+    max-width: 330px;
+}
+
+.section-certificate .item-certificate .icon {
+    margin-bottom: 16px;
+}
+
+.section-certificate .item-certificate .title {
+    color: #051C5C;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.section-certificate .item-certificate .desc {
+    color: #000C35;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Contact */
+.section-contact {
+    background: #000F43;
+    padding: 43px 0 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-contact h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 900;
+}
+
+.section-contact h2 label {
+    font-size: 36px;
+}
+
+.section-contact h2 span {
+    font-size: 14px;
+}
+
+.section-contact input {
+    width: 100%;
+    height: 48px;
+    padding-left: 22px;
+    padding-right: 140px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    outline: none;
+}
+
+.section-contact button {
+    position: absolute;
+    right: -5px;
+    height: 48px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: 14px;
+    width: 125px;
+    background: #2752E1;
+    border: none;
+}

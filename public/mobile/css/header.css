@@ -1,0 +1,344 @@
+.header-wapper {
+    padding-top: 0px;
+    box-shadow: 0px 4px 4px rgba(210, 210, 210, 0.25);
+}
+
+.header-wapper .main-menu,
+.header-wapper .header-cart {
+    width: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.header-wapper .header-bottom {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-wapper .main-menu {
+    justify-content: center;
+}
+.header-wapper .header-bottom .row {
+    margin: 0;    justify-content: space-between;
+}
+.header-wapper .header-bottom .container {
+    padding: 0;
+}
+.header-wapper .main-menu .icon-menu {
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    text-align: center;
+    background: #f3e4ff;
+}
+.review-items .content-title{padding-right: 10px;}
+.header-wapper .header-logo {
+    width: calc(100% - 140px);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.header-wapper .header-logo span {
+    color: #20315c;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header-cart > .active-cart span.icon-cart {
+    position: relative;
+    top: 2px;
+}
+.header-cart > .active-cart span.icon-cart img {
+    width: 27px;
+    height: 27px;
+}
+
+.header-cart > .active-cart span.icon-cart span {
+    height: 22px;
+    width: 22px;
+    line-height: 21px;
+    background: linear-gradient(90deg, #e562ff 9.74%, #8c00ff 100%);
+    position: absolute;
+    right: -15px;
+    border-radius: 50%;
+    top: -10px;
+    z-index: 2;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header-phone img {
+    position: relative;
+    top: -2px;
+}
+
+.header-phone {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001f86;
+}
+
+.header-phone a {
+    color: #001f86;
+}
+
+.header-wapper .header-menu {
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+    width: 100%;
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: -100%;
+    z-index: 1000;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+    -ms-transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+    -o-transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+    transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+    height: calc(100% - 50px);
+}
+
+.header-wapper .header-menu.active {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.header-wapper .header-menu .hotline {
+    margin-top: 15px;
+    padding: 0 15px;
+    color: #000f40;
+}
+.header-wapper .header-menu .hotline a {
+    color: #000f40;
+}
+.header-wapper .header-menu .hotline p {
+    margin-bottom: 15px;
+}
+
+.header-wapper .header-menu .hotline .title {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.header-wapper .header-menu .hotline .phone,
+.header-wapper .header-menu .hotline .mail {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.header-wapper .header-menu ul.menu-list {
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-wapper .header-menu ul.menu-list li {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+}
+.header-wapper .header-menu ul.menu-list li li {
+    font-weight: 400;
+}
+.header-wapper .header-menu ul.menu-list > li > a {
+    color: #000f40;
+    display: block;
+    padding: 24px 15px 0;
+}
+.header-wapper .header-menu ul.menu-list > li > a > span {
+    border-bottom: 1px solid #e7caff;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 24px;
+}
+.header-wapper .main-menu .icon-menu img {
+    vertical-align: baseline;
+}
+.header-wapper .main-menu .icon-menu .button-hide,
+.header-wapper .main-menu .icon-menu.active .button-show {
+    display: none;
+}
+
+.header-wapper .main-menu .icon-menu.active .button-hide {
+    display: inline;
+}
+
+body.active {
+    overflow: hidden;
+}
+
+.header-wapper .header-menu ul.menu-list li.has-submenu > a {
+    position: relative;
+}
+
+.header-wapper .header-menu ul.menu-list li.has-submenu > a i {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    font-weight: 600;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu .submenu {
+    display: none;
+    background: #fbf5ff;
+    padding: 10px 15px 10px 30px;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu li.submenu .menu-link {
+    padding: 0 15px 15px 30px;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu .submenu span {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000f40;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu .submenu > li {
+    padding: 10px 0;
+}
+
+.header-wapper
+    .header-menu
+    ul.menu-list
+    .has-submenu
+    .submenu
+    > li:not(:last-child) {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu.active > a > span {
+    border-bottom: none;
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu.active i {
+    transform: rotate(90deg);
+}
+
+.header-wapper .header-menu ul.menu-list .has-submenu.active .submenu {
+    display: block;
+}
+
+.hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility 0.5s;
+}
+.hotline-phone-ring-circle-fill {
+    width: 70px;
+    height: 70px;
+    top: calc(50% - 33px);
+    left: calc(50% - 33px);
+    position: absolute;
+    background-color: rgba(120, 86, 255, 0.7);
+    border-radius: 100%;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.hotline-phone-ring-img-circle {
+    background-color: rgba(120, 86, 255, 0.7);
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hotline-phone-ring-img-circle .pps-btn-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+@-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+    30% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        -webkit-opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+}
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}

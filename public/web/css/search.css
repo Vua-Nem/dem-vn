@@ -1,0 +1,113 @@
+.result {
+  padding: 23px 180px;
+}
+
+.result .result-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #051C5C;
+  margin-bottom: 22px;
+}
+
+.result .list-products {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+	grid-gap: 1px;
+}
+
+.result .list-products .item {
+  padding: 30px 37px 21px;
+	outline: 1px solid #D3D3D3;
+}
+
+.result .list-products .item .product-image {
+  width: 319px;
+  height: 343px;
+  object-fit: cover;
+  margin-bottom: 11px;
+}
+
+.result .list-products .item .product-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #153388;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.result .list-products .item .block-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.result .list-products .item .block-price .product-price {
+  padding-right: 37px;
+  border-right: 1px solid #D9D9D9;
+}
+
+.result .list-products .item .block-price .product-price .price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #D92121;
+  margin-bottom: 8px;
+}
+
+.result .list-products .item .block-price .product-price .compare-price {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #BCBCBC;
+  text-decoration-line: line-through;
+  margin-bottom: 0;
+}
+
+.result .list-products .item .block-price .installment-price {
+  padding-left: 24px;
+}
+
+.result .list-products .item .block-price .installment-price p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #515158;
+  margin-bottom: 5px;
+}
+
+.result .list-products .item .block-price .installment-price label {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #38383D;
+  margin-right: 5px;
+}
+
+.result .list-products .item .block-price .installment-price span {
+  font-size: 16px;
+  color: #515158;
+}
+
+.result .list-products .item .buy-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 52px;
+  width: 240px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  background: #153388;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.result .list-products .item .buy-now:hover {
+  background: #051C5C;
+}
